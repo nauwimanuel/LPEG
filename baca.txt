@@ -1,0 +1,10 @@
+> Instalasi Aplikasi Laporan Harian Pegawai (LPeg).
+	1. Upload file Lpeg.zip ke Server lalu extrak.
+	2. Buka file config.php yang ada pada folder lpeg/application/config, lalu ganti nilai $config['base_url'] alamat domain yang dimiliki.
+	3. Buka file database.php yang ada pada folder yang sama, lalu ganti nilai Hostname, Username, Passwoard dan database.
+	4. Buka Web Browser lalu buka PHPMyAdmin dan buat Database baru dengan nama 'dl_lpeg' atau bisa yang lain.
+	5. Setelah Databasenya dibuat pilih menu Inport selanjutnya pilih file 'db_lpeg.sql' yang ada pada folder lpeg lalu pilih proses selanjudnya untuk menInport Databasenya.
+	6. selanjudnya buka tab baru lalu alamat url dari aplikasi dan akan tampil halaman Login.
+	7. Username untuk Admin adalah '12345' dan Password adalah 'admin' tanpa tanda petik.
+
+
